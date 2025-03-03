@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+background-image: url(ocean.jpg);
+margin-top: -5vw;
+width: 100vw;
+height: 101vh;
+}
+
+img {
+margin-left: -10vw;
+}
+
+
+
+h1 {
+    font-family: scotch-deck-compressed, sans-serif;
+    color: greenyellow;
+    font-weight: 200;
+    margin-left: 1vw;
+    font-size: 7vw;
+    z-index: 2;
+}
+
+h3 {
+    font-family: scotch-deck-compressed, sans-serif;
+    font-style: italic;
+    color: greenyellow;
+    font-weight: 200;
+    font-size: 3.5vw;
+    z-index: 2;
+    margin-top: -3.5vw;
+    margin-left: 1vw;
+}
+
+.heading {
+    font-family: scotch-deck-compressed, sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 3.5vw;
+    margin-left: -0.15vw;
+}
+
+a {
+    color: white;
+    font-family: scotch-deck-compressed, sans-serif;
+    font-weight: 200;
+    font-size: 2vw;
+    margin-left: 1vw;
+    text-decoration: none;
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: -3vw;
+}
+
+.nav2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: -3vw;
+
+}
+
+.exercises {
+    margin-top: 1vw;
+}
